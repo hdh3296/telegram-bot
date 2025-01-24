@@ -12,11 +12,11 @@ BOT_USERNAME: Final = '@freeainer_bot'
 
 # 봇 시작 명령어 처리
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text('안녕하세요! 방갑습니다. 저는 프리아이너봇입니다.')
+    await update.message.reply_text('안녕하세요! 방갑습니다. 저는 프리아이너 봇입니다.')
 
 # 도움말 명령어 처리
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text('저는 바나나봇입니다! 무엇을 도와드릴까요?')
+    await update.message.reply_text('저는 프리아이너 봇입니다! 무엇을 도와드릴까요?')
 
 # 사용자 메시지 처리
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):

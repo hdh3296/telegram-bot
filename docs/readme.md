@@ -14,7 +14,7 @@
 ```bash
 git clone [저장소 URL]
 ```
-
+        
 2. 가상환경을 생성하고 활성화합니다:
 ```bash
 python -m venv myvenv
