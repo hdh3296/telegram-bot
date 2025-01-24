@@ -30,7 +30,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
             new_text: str = text.replace(BOT_USERNAME, '').strip()
             response: str = handle_response(new_text)
         else:
-            return
+            return          
     else:
         response: str = handle_response(text)
 
